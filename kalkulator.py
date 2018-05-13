@@ -1,8 +1,6 @@
 def dodaj(a,b):
-	a = ipnut()
-	b = input()
-	print(int(a) + int(b))
+	return a + b
 
 x = int(input())
 y = int(input())
-dodaj(x,y)
+print(dodaj(x,y))
